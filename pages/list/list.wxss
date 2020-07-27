@@ -1,0 +1,63 @@
+/* pages/mine/mine.wxss */
+page {height:100%}
+.container{
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.bg{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+.bg image{
+  height: 100%;
+  width: 100%;
+  filter: blur(50rpx);
+}
+.bg-gray{
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(54, 43, 41, 0.1);
+}
+.poster{
+  width: 600rpx;
+  height: 600rpx;
+}
+
+.list{
+  position: absolute;
+  top: 0;
+  /* height: 100%; */
+  width: 100%;
+  color: rgb(245, 243, 243);
+}
+.item{
+  height: 260rpx;
+  display: flex;
+  padding: 0rpx 30rpx;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-choose{
+  background-color: rgba(65, 61, 60, 0.6);
+}
+
+.item image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.songName{
+  margin: 0 0 0 30rpx;
+  line-height: 60rpx;
+  font-size: medium;
+}
+.singerName{
+  margin: 0 0 0 30rpx;
+  font-size: smaller;
+}

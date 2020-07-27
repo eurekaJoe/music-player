@@ -1,0 +1,22 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <!--第一层层：背景图背景图，高斯模糊-->
+  <view class="bg">
+    <image class="poster" mode="scaleToFill" src="{{songList[songIndex].songImage}}"></image>
+  </view> 
+  <!--第二层层：灰色蒙层-->
+  <view class="bg-gray">
+  </view>
+  <scroll-view class="list"> 
+  <view wx:for="{{songList}}" wx:key="index">
+    <view id="{{index}}" class="item {{index === songIndex ? 'item-choose' : ''}}"  data-index="{{index}}"  bindtap="toPlay" >
+      <image src="{{item.songImage}}"></image>
+      <view class="text">
+        <view class="songName">{{item.songName}}</view>
+        <view class="singerName">{{item.singer}}</view>
+      </view>
+    </view>
+    </view>
+  </scroll-view>
+
+</view>

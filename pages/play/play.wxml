@@ -1,0 +1,30 @@
+<view class="container">
+  <view class="bg">
+    <image class="poster" mode="scaleToFill" src="{{songImage}}"></image>
+  </view> 
+  <view class="bg-gray">
+  </view>
+  <view class="content">
+    <image src="{{songImage}}" id="songUrl" class="{{playStatus==true?'play':'stop'}}"></image>
+    <image src="./../../public/disk.png" id="disk"></image>
+    <image src="./../../public/play.png" id="playBtn" bindtap="play" wx:if="{{playStatus}}"></image>
+    <image src="./../../public/stop.png" id="playBtn" bindtap="play" wx:if="{{!playStatus}}"></image>
+  </view>
+  <image src="./../../public/needle.png" id="needle"></image>
+  <view class="info">
+    <text class="info_name">{{songName}}</text>
+    <text class="info_singer">-{{singer}}-</text>
+  </view>
+  <view class="slider-container">
+      <text class="slider-time">{{musicTime}}</text>
+      <slider
+          value="{{sliderValue}}"
+          bindchange='audioChange' bindchanging='audioChanging'
+          activeColor="#E1C2DB"
+          style="width: 62%;margin: 0;"
+          block-size="12"
+          block-color="#E1C2DB"
+        />
+      <text class="slider-time">{{duration === 0 ? '' : duration}}</text>
+    </view>
+</view>

@@ -1,0 +1,28 @@
+/**index.wxss**/
+.swiperWrap image{
+  width: 100%;
+  height: 100%;
+}
+.rowWrap{
+  margin-top: 20px;
+}
+.row{
+  display: flex;
+  justify-content : space-between;
+  align-items: center;
+  margin: 10px 30px;
+}
+.iconWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content : center;
+  align-items: center;
+}
+.iconWrap image{
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.iconWrap text{
+  font-size: small;
+}

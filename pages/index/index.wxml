@@ -1,0 +1,55 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="swiperWrap" indicator-dots circular>
+    <swiper-item>
+      <image src="http://p1.music.126.net/gmPrZ-pDYH84D3gcr1FH3A==/109951165170462375.jpg?imageView&quality=89"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://p1.music.126.net/ZdY3hP1twqzp1iRfxmB9Gw==/109951165170422743.jpg?imageView&quality=89"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="http://p1.music.126.net/KcN8aR7XKTEg0D39FkxOwg==/109951165170022906.jpg?imageView&quality=89"></image>
+    </swiper-item>
+      <swiper-item>
+      <image src="http://p1.music.126.net/5MwDL15zRgM5Z-zqOdie5Q==/109951165170431324.jpg?imageView&quality=89"></image>
+    </swiper-item>
+  </swiper>
+  <view class="rowWrap">
+    <view class="row">
+      <view class="iconWrap">
+        <image src="../../public/topicon(1).png"></image>
+        <text>每日推荐</text>
+      </view>
+      <view class="iconWrap">
+        <image src="../../public/topicon(2).png"></image>
+        <text>歌单</text>
+      </view>
+      <view class="iconWrap">
+        <image src="../../public/topicon(3).png"></image>
+        <text>排行榜</text>
+      </view>
+      <view class="iconWrap">
+        <image src="../../public/topicon(4).png"></image>
+        <text>电台</text>
+      </view>
+    </view>
+    <view class="row">
+      <view class="iconWrap">
+        <image src="../../public/topicon(5).png"></image>
+        <text>直播</text>
+      </view>
+      <view class="iconWrap">
+        <image src="../../public/topicon(6).png"></image>
+        <text>火前留名</text>
+      </view>
+      <view class="iconWrap">
+        <image src="../../public/topicon(7).png"></image>
+        <text>数字专辑</text>
+      </view>
+      <view class="iconWrap">
+        <image src="../../public/topicon(8).png"></image>
+        <text>畅聊</text>
+      </view>
+    </view>
+  </view>
+</view>

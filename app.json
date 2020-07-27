@@ -1,0 +1,44 @@
+{
+  "entryPagePath":"pages/index/index",
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/play/play",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#9987AD",
+    "navigationBarTitleText": "音乐列表",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#222",
+    "selectedColor":"#53096C",
+    "backgroundColor":"#C4C9DD",
+    "list":[
+      {
+        "text":"个人",
+        "iconPath":"./public/wode.png",
+        "selectedIconPath":"./public/wode_active.png",
+        "pagePath":"pages/mine/mine"
+      },
+      {
+        "text":"首页",
+        "iconPath":"./public/home.png",
+        "selectedIconPath":"./public/home_active.png",
+        "pagePath":"pages/index/index"
+      },
+      {
+        "text":"列表",
+        "iconPath":"./public/yinle.png",
+        "selectedIconPath":"./public/yinle_active.png",
+        "pagePath":"pages/list/list"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+
+}
